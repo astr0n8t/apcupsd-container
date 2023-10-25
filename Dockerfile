@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER Greg Ewing (https://github.com/gregewing)
+MAINTAINER Nathan Higley (https://github.com/astr0n8t)
 ENV LANG=C.UTF-8 DEBIAN_FRONTEND=noninteractive TZ= UPSNAME= UPCABLE= UPSTYPE= DEVICE= POLLTIME= ONBATTERYDELAY= BATTERYLEVEL= MINUTES= TIMEOUT= SELFTEST= APCUPSD_SLAVES=
 
 COPY scripts /usr/local/bin
